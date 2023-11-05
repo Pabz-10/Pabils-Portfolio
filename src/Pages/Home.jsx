@@ -2,9 +2,11 @@ import Layout from "../Layout";
 
 const Home = () => {
 	return (
-		<Layout>
-			<div></div>
-		</Layout>
+		<div>
+			<Layout>
+				<h1>Home</h1>
+			</Layout>
+		</div>
 	);
 };
 

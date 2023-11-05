@@ -1,10 +1,10 @@
-import { Children } from "react";
+import Navbar from "./Navbar";
 
-
-export default function Layout() {
+export default function Layout({ children }) {
 	return (
 		<div className="page--container">
-			<main className="page--content">{Children}</main>
+			<Navbar />
+			<main className="page--content">{children}</main>
 		</div>
 	);
 }

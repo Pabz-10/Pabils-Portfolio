@@ -7,15 +7,13 @@ import About from "./Pages/About";
 
 function App() {
 	return (
-		<>
-			<Routes>
-				<Route element={Layout}></Route>
-				<Route path="/" element={Home}></Route>
-				<Route path="/contact" element={Contact}></Route>
-				<Route path="/work" element={Work}></Route>
-				<Route path="/about" element={About}></Route>
-			</Routes>
-		</>
+		<Routes>
+			<Route element={<Layout />} />
+			<Route path="/" element={<Home />} />
+			<Route path="/contact" element={<Contact />} />
+			<Route path="/work" element={<Work />} />
+			<Route path="/about" element={<About />} />
+		</Routes>
 	);
 }
 
