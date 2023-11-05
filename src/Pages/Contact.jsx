@@ -1,6 +1,6 @@
 import Layout from "../Layout";
 
-export const Contact = () => {
+export default function Contact() {
 	return (
 		<div>
 			<Layout>
@@ -8,4 +8,4 @@ export const Contact = () => {
 			</Layout>
 		</div>
 	);
-};
+}

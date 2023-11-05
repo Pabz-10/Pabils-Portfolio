@@ -1,5 +1,11 @@
-const Work = () => {
-	return <div>Work</div>;
-};
+import Layout from "../Layout";
 
-export default Work;
+export default function Work() {
+	return (
+		<div>
+			<Layout>
+				<h1>Hellos</h1>
+			</Layout>
+		</div>
+	);
+}

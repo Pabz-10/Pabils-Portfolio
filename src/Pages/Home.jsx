@@ -1,13 +1,12 @@
 import Layout from "../Layout";
+import Navbar from "../Navbar";
 
-const Home = () => {
+export default function Home() {
 	return (
 		<div>
 			<Layout>
-				<h1>Home</h1>
+				<Navbar />
 			</Layout>
 		</div>
 	);
-};
-
-export default Home;
+}

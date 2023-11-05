@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Pages/Home";
-import { Contact } from "./Pages/Contact";
+import Contact from "./Pages/Contact";
 import Work from "./Pages/Work";
 import About from "./Pages/About";
 

@@ -1,10 +1,33 @@
 body {
+	font-family: "Fjalla One", sans-serif;
 	background-color: #0a0a0a;
+	color: whitesmoke;
+	margin: 0;
+	padding: 0;
 }
 
-.navbar--div {
+.navbar--list {
+	list-style-type: none;
 	display: flex;
-	height: 40px;
 	justify-content: center;
-	color: red;
+	font-size: 60px;
+}
+.navbar--items {
+	margin: 3px;
+}
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #49584bff;
+}
+
+.slash::before,
+.slash::after {
+	content: "/";
+	color: #49584bff; /* Change to your desired color */
+	/* Other styles for the slash, e.g., font-size, font-weight, etc. */
 }
