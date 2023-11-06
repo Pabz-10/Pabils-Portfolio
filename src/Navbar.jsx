@@ -8,13 +8,13 @@ export default function Navbar() {
 					<Link to="/about">About</Link>
 				</li>
 				<li className="navbar--items">
-					<Link to="/contact">
-						<span className="slash"></span> Contact{" "}
+					<Link to="/work">
+						<span className="slash"></span>  Projects {" "}
 						<span className="slash"></span>
 					</Link>
 				</li>
 				<li className="navbar--items">
-					<Link to="/work">Works</Link>
+					<Link to="/contact">Contact</Link>
 				</li>
 			</ul>
 		</div>

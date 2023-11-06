@@ -6,28 +6,60 @@ body {
 	padding: 0;
 }
 
+.navbar--div {
+	width: 100%;
+}
+
 .navbar--list {
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
-	font-size: 60px;
+	
 }
+
 .navbar--items {
-	margin: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	
 }
 
 a {
+	margin: 0;
+	font-size: 50px;
 	color: whitesmoke;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #49584bff;
+	color: #5c7860;
 }
 
 .slash::before,
 .slash::after {
 	content: "/";
-	color: #49584bff; /* Change to your desired color */
-	/* Other styles for the slash, e.g., font-size, font-weight, etc. */
+	color: #5c7860;
+}
+
+.home--div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+}
+
+.home--middle {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.home--name {
+	font-size: 21px;
+}
+
+.home--title {
+	color: #5c7860;
+	font-size: 21px;
 }
